@@ -1,7 +1,122 @@
 ---
-title: "Website_Woemn_STEM"
+title: "Gender Disproportion in STEM: Under-Represented Women Population"
+bibliography: references.bib
+format:
+  html:
+    toc: true
+    toc-location: left
+    css: styles.css
 ---
 
-This is a Quarto website.
+```{r}
+#| include: false
+#| warning: false
+#| message: false
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+library(ggplot2)
+library(plotly)
+library(DT)
+
+library(htmltools)
+
+# Render footer HTML
+footer <- tags$footer(
+  tags$p("&copy; 2024 Maggie Zhang. All rights reserved.")
+)
+
+footer
+
+```
+
+
+## Gender Disparity in STEM
+
+The underrepresentation of women in STEM (Science, Technology, Engineering, and Mathematics) fields remains a deeply ingrained issue with far-reaching consequences. Despite progress in some areas, the gender imbalance is stark: women represent only 28.2% of the STEM workforce, a significant contrast to their 47.3% representation in non-STEM sectors. Even more concerning is the underrepresentation of women in leadership roles in STEM, with women holding just over 10% of these positions [@pal2024global], see[@tbl-women]. As technology and innovation continue to shape our future, closing this gender gap is crucial not only for fairness but also for creating a diverse and comprehensive landscape that better addresses global challenges.
+
+
+```{r}
+#| label: tbl-women
+#| tbl-cap: "This bar plot highlights the gender disparity between women in STEM and non-STEM sectors. Women make up 28.2% of the STEM workforce, compared to 47.3% in non-STEM roles. In leadership positions, women hold only 10% of STEM roles, emphasizing the ongoing gender gap. Source [@pal2024global]"
+#| echo: false
+
+data <- data.frame(
+  category = c("STEM Workforce", "Non-STEM Workforce", "Women in STEM Leadership"),
+  percentage = c(28.2, 47.3, 10),
+  label = c("28.2%", "47.3%", "10%")
+)
+
+# Create the plot
+p <- ggplot(data, aes(x = category, y = percentage, fill = category)) +
+  geom_bar(stat = "identity", width = 0.6, show.legend = FALSE) +
+  geom_text(aes(label = label), vjust = -0.3, size = 3, fontface = "bold") +
+  labs(
+    y = "Percentage of Women (%)"
+  ) +
+  scale_fill_manual(values = c("#4F81BD", "#9B59B6", "#70AD47")) +
+  theme_minimal(base_size = 14) +
+  theme(
+    axis.text.x = element_text(angle = 20, hjust = 0.5, size = 10),
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(face = "bold", size = 12),
+    plot.title = element_blank()
+  )
+
+interactive_plot <- ggplotly(p)
+interactive_plot
+```
+While countries like Iceland, Finland, and Norway have made strides in promoting gender equality in many sectors, STEM remains one of the most stubborn areas for gender equity. This issue limits career opportunities for women, undermining personal development, economic independence, and the overall growth of these fields [@nationalgeographic2024women]. This issue has been ongoing for decades and continues to persist, with some progress made in recent years, but the gap remains substantial.
+
+
+## Raising Awareness and Encouraging Change
+
+Research underscores the significant barriers women face in STEM, not just in terms of access to opportunities but also in terms of ongoing systemic challenges [@nationalgeographic2024women]. Women in these fields encounter unconscious bias, gendered stereotypes, and the threat of social exclusion. As a result, women are nearly 20% more likely to leave STEM careers than their male counterparts, as demonstrated in @tbl-drop-out. These challenges are even more pronounced in high-demand fields such as artificial intelligence (AI), programming, and cybersecurity, where women continue to face substantial barriers [@pal2024global].
+```{r}
+#| label: tbl-drop-out
+#| tbl-cap: "This pie chart compares the relative proportions of women and men leaving STEM, highlighting the significant gender gap: women being 20% more likely to leave compared to men. Source [@pal2024global]: "
+#| echo: false
+
+leaving_data <- data.frame(
+  Group = c("Women Leaving STEM", "Men Leaving STEM"),
+  Percentage = c(30, 10)
+)
+
+ggplot(leaving_data, aes(x = "", y = Percentage, fill = Group)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  scale_fill_manual(values = c("lightblue", "pink")) +
+  theme_void()
+```
+
+
+
+## Your Effort by Browsing This Website!
+
+This website was created to:
+-   **Raise awareness** about the under-representation of women in STEM fields.
+-   **Encourage** collective action toward closing the gender gap in STEM.
+-   **Provide** insights into the underlying causes of gender disparity in STEM.
+-   **Advocate** for those in positions of power over STEM fields to take action and shape the future of STEM with greater gender equality.
+
+By **everyone** understanding **why** the gender disparity in STEM exists and recognizing the **current state** of the situation, we can all play a part in addressing the issue. It’s not just about one group or individual making changes; **it’s about fostering a collective effort!**
+
+<div class="cta-banner">
+**Let’s work together** to ensure that women in STEM not only have equal access to opportunities but also the encouragement, resources, and role models they need to succeed! 
+</div>
+
+
+<div class="cta-banner-alt">
+**Let's work together** to break down barriers and reshape perceptions, creating supportive environment where everyone ! </div>
+
+**Together, we can create lasting change and inspire future generations!**
+
+
+<div class="link-box">
+  <a href="story.qmd"><strong>Click here</strong> to share your story in STEM!</a>
+</div>
+
+
+
+
+# References
+
+

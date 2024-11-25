@@ -2,18 +2,24 @@ project:
   type: website
 
 website:
-  title: "Website_Woemn_STEM"
+  title: "Under-represented Women in STEM Field"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "Home"
+      - href: about.qmd
+        text: "About the Issue"
+      - href: story.qmd
+        text: "Share Your Story"
+      - href: Theories.qmd
+        text: "Theories"
+        
+
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 
 editor: visual
-

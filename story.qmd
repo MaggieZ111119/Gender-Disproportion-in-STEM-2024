@@ -1,0 +1,54 @@
+---
+title: "Share Your Story"
+format: html
+---
+
+## Your Voice Matters
+
+Every individual’s story has the greatest power to raise awareness, and inspire change in amking a more inclusive community. Whether you're a **woman in STEM**, a **mentor**, a **teacher**, or someone who has **faced challenges**, your experiences can offer valuable insights and support to others!
+
+-   **Raise Awareness:** Your story helps spot light on the realities faced by women in STEM. Inform policy makers, hiring mapanyies, education insitutue, etc know about esiting barriers.
+-   **Inspire Action:** By sharing your story, you might encourage others to take action, from sall to big.
+-   **Build a Support Network:** The more stories we share, the stronger the community becomes. We are never alone!
+
+## You Can Share
+
+1.  **General Personal Experiences:** Have you faced challenges or overcome obstacles in your journey through STEM (study or working)? Share your strategies to overcome them for others! 
+
+2.  **Concerns:** What is your current concern in your STEM journey? Encountered barriers, such as bias, stereotypes, or lack of support? There will definitely be people who resonate with you!
+
+3.  **Success Stories:** It's always good to hear positive stories! What did it mean to you? How did it shape your future decisions and confidence in STEM?
+
+4.  **Mentorship:** Have you experienced a mentor who guided you? Or are you a mentor who has helped others navigate their path in STEM? Share your experience for others!
+
+
+## How to Share Your Story
+
+-   **Submit Your Story Below:** Fill out the form with your story, and it will be shared with our community. You can remain anonymous or choose to have your name and photo included.
+
+-   **Remember** Please remember that this is a safe space. Share your experiences respectfully!
+
+### Submit Your Story
+
+We want to hear your story! Please fill out the form below and share your experiences.
+
+<div class="form-container">
+  <form action="mailto:womeninSTEM@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Your Name (Optional):</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="story">Your Story:</label><br>
+    <textarea id="story" name="story" rows="5" cols="50" required></textarea><br><br>
+
+    <label for="consent">Consent to Share Your Story: By submitting your story, you consent to having it shared (anonymously, if preferred).</label>
+    <input type="checkbox" id="consent" name="consent" required><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+------------------------------------------------------------------------
+
+You can also submit your story directly via email to the website manager, Maggie Zhang, at maggiey.zhang@mail.utoronto.ca. Maggie is a third-year STEM student at the University of Toronto. She would be happy to hear your thoughts and discuss the possibility of joining the team to help drive meaningful change!
+
+**Your experiences matter and can make a difference! By sharing your story, you are contributing to a more inclusive and supportive STEM community!**

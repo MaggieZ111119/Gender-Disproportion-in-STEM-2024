@@ -1,5 +1,63 @@
 ---
-title: "About"
+title: "About the Issue"
+bibliography: references.bib
+format:
+  html:
+    toc: true
+    toc-location: left
+    css: styles.css
 ---
 
-About this site
+## The Issue:
+
+There is a significant gender disparity in STEM (Science, Technology, Engineering, and Mathematics) fields, with women underrepresented in both academic and professional settings. This gender gap continues to persist despite various efforts to improve diversity and inclusion in these sectors.
+
+The Global Gender Gap Report [@pal2024global] highlights the persistent under-representation of women in STEM fields. 
+
+-   Women face higher dropout rates and fewer opportunities.
+
+-   Interest in STEM careers among women is often lower compared to men, influenced by systemic barriers.
+
+To explore why and how this gender disparity occurs further through theories, click here:
+
+
+<div class="link-box">
+  <a href="Theories.qmd"><strong>Click here</strong> to learn more about theoretical reason behind the issue!</a>
+</div>
+
+
+
+### Current Statistics
+Fewer than 30% of STEM professionals globally are women. While representation of women is relatively stronger in fields like **biology**, it is drastically lower in areas including:
+
+-   **Computer Science** 
+
+-   **Physics** 
+
+-   **Engineering** 
+
+Issues also involve support, experience, and engagement challenges fro woman in STEM, such as lack of mentorship, pervasive stereotypes, and biased educational practices, which make it significantly harder for women to succeed in STEM fields [@nationalgeographic2024women].
+
+## Who is Involved:
+
+-   **Women in STEM:** Women are directly impacted by barriers to entry, unequal opportunities, and challenges to career advancement.
+
+-   **Educational Institutions:** Universities and schools play a crucial role in attracting women into STEM disciplines and providing the support needed to ensure greater future success. It's essential to create environments where hiring practices are free from bias.
+
+-   **Organizations and Employers:** Companies in STEM-related industries have a significant responsibility to foster an inclusive workplace, ensuring equal opportunities and providing support for women to thrive.
+
+For those involved in this issue (not limited to the groups mentioned above), if you have a current story to share that can inspire future change-makers, you're welcome to share your story with everyone:
+
+<div class="link-box">
+  <a href="story.qmd"><strong>Click here</strong> to share your story in STEM!</a>
+</div>
+
+
+
+
+## Why Important? Towards the Future
+
+Addressing gender disparity in STEM is important not only for fairness and equality but also for the advancement of knowledge and innovation in our society. Diversity brings a variety of perspectives, leading to more solutions, better decision-making, and advancements that benefit everyone, regardless of gender.
+
+
+# References

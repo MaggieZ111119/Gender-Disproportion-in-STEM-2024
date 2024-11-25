@@ -1,0 +1,33 @@
+---
+title: "Theories Explaining the Gender Gap"
+bibliography: references.bib
+format: html
+---
+
+# 1. Social Identity Theory (SIT)
+
+**Social Identity Theory (SIT)** helps explain how the under-representation of women in STEM is influenced by their perceived membership in social groups just like the group: *Women in STEM*; and this will significantly influence their behaviors [@hogg2016social]. According to SIT, when women perceive STEM as a male-dominated domain, they are less likely to pursue or persist in these fields. This is compounded by social identity threats that reduce self-esteem and motivation [@tajfel1986integrative].
+
+## Key Research
+
+-   **Kim, Sinatra, and Seyranian (2018)** found that societal beliefs about women's roles in STEM reduce their interest and self-identification with STEM fields.
+-   **Cheryan and Plaut (2010)** demonstrated that women feel less similar to the typical academic prototype in fields like computer science, reducing their interest in pursuing these disciplines.
+
+## Actionable Change:
+
+Highlight diverse role models: emphase that STEM is for everyone can significantly improve women’s engagement with these fields.
+
+# 2. Social Role Theory (SRT)
+
+Social Role Theory (SRT) suggests that societal expectations based on gender stereotypes contribute to the under representation of women in STEM [@nelson2009handbook]. Society associates certain traits, such as logic and competitiveness, with men, which discourages women from pursuing careers that require these traits [@eagly2012social].
+
+## Key Research
+
+-   **Piatek-Jimenez, Cribbs, and Gill (2018)** revealed that traits like competitiveness and risk-taking are seen as masculine and discourage women from considering STEM careers.
+-   **Dicke, Safavian, and Eccles (2019)** found that traditional gender role beliefs influence educational attainment and career aspirations, particularly in STEM fields.
+
+## Actionable Change:
+
+More diverse media representation can help women feel that they can do well in STEM regardless of societal gender expectations.
+
+# References
